@@ -17,6 +17,7 @@ public class SecondServlet extends SipServlet {
 	 */
 	public SecondServlet() {
 		super();
+		System.out.println("Testing......Testing......");
 	}
 
 	public void init() throws ServletException {

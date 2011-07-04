@@ -11,9 +11,9 @@ import javax.servlet.sip.SipServletResponse;
 
 @javax.servlet.sip.annotation.SipServlet
 public class FirstServlet extends SipServlet {
+	private static final long serialVersionUID = 1056098786739520713L;
 
 	public void init() throws ServletException {
-		// TODO Auto-generated method stub
 		log("init");
 	}
 
@@ -36,12 +36,12 @@ public class FirstServlet extends SipServlet {
 
 	@PostConstruct
 	protected void postConstruct() {
-		// TODO Auto-generated method stub
+		System.out.println("Company Name: " + getInitParameter("companyName"));
 	}
 
 	@PreDestroy
 	protected void preDestroy() {
-		// TODO Auto-generated method stub
+
 	}
 
 }

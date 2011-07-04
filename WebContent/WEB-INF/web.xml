@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FirstHttpServlet</display-name>
+    <servlet-name>FirstHttpServlet</servlet-name>
+    <servlet-class>com.voxeo.testcase_01.FirstHttpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstHttpServlet</servlet-name>
+    <url-pattern>/FirstHttpServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

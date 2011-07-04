@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Application xmlns="http://www.w3.org/2001/XMLSchema" 
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
- xsi:schemaLocation="http://www.w3.org/2001/XMLSchema http://www.voxeo.com/prism/xsd/sipmethod-application.xsd">
+
+<Application xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema http://www.voxeo.com/prism/xsd/sipmethod-application.xsd">
+  <Environment name="maxExemptions" type="java.lang.Integer" value="10"/>
+  <Parameter name="companyName" value="My Company, Incorporated"/>
 </Application>
